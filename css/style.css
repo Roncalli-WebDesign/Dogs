@@ -1,0 +1,36 @@
+*, html, body{
+  margin: 0;
+  padding: 0;
+}
+
+/* SECTION */
+.hero{
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+
+/*TYPOGRAPHY*/
+h1{
+  font-family: 'Scope One', serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 64px;
+  text-align: center;
+  color: #000000;
+  margin: 1em 0;
+}
+.photos {
+  width: 70%;
+  margin: 0 auto;
+}
+.column {
+  width: 31%;
+  margin: 0 1%;
+  display: inline-block;
+  float: left;
+}
+.column img {
+  width: 100%;
+  height: auto;
+}
